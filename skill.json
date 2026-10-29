@@ -1,0 +1,15 @@
+{
+  "name": "genpark-agent-redteam-indirect-injection-fuzzer-skill",
+  "version": "1.0.0",
+  "description": "Agentic cybersecurity red-teaming indirect prompt injection fuzzer with delimiter evasion, unicode homoglyph generation, and threat entropy scoring.",
+  "tools": [
+    {
+      "name": "generate_fuzz_variants",
+      "description": "Generate adversarial prompt injection test cases."
+    },
+    {
+      "name": "audit_prompt_for_injection",
+      "description": "Scan untrusted inputs and RAG contexts for prompt injection threats."
+    }
+  ]
+}
